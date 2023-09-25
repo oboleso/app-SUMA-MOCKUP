@@ -66,7 +66,7 @@ h1 {
 }
 
 h2 {
-	color: #333;
+	color: #005677;
 	font: 700 2rem/2.625rem "Open Sans", sans-serif;
 	letter-spacing: -0.2px;
 }
@@ -921,7 +921,7 @@ input[type='checkbox'] {
 }
 
 .cards-1 .card-image {
-	max-width: 8rem;
+	max-width: 12rem;
 	margin-right: auto;
 	margin-bottom: 2rem;
 	margin-left: auto;
@@ -1521,6 +1521,26 @@ a:hover.back-to-top {
 	background-color: #013347; 
 }
 
+/**********************************/
+/*     16. Button Whatsapp     */
+/**********************************/
+a.button-whatsapp {
+	position: fixed;
+	z-index: 999;
+	right: -0.55rem;
+	bottom: 3.05rem;
+	width: 6.625rem;
+	height: 6.625rem;
+	border-radius: 2.875rem;
+	text-indent: -9999px;
+	background: url("../images/logo-whatsapp.png") no-repeat center 47%;
+	background-size: 5.125rem 5.125rem;
+}
+
+a:hover.button-whatsapp {
+	background-size: 6.225rem 6.225rem;
+}
+
 
 /***************************/
 /*     17. Extra Pages     */
@@ -1654,7 +1674,7 @@ a:hover.back-to-top {
 	
 	/* General Styles */
 	.p-heading {
-		width: 85%;
+		width: 90%;
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -1815,7 +1835,7 @@ a:hover.back-to-top {
 
 	/* General Styles */
 	.p-heading {
-		width: 65%;
+		width: 90%;
 	}
 
 	.h2-heading {

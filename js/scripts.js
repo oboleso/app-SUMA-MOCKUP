@@ -65,7 +65,7 @@ $(document).ready(function() {
     /* Image Slider - Swiper */
     var imageSlider = new Swiper('.image-slider', {
         autoplay: {
-            delay: 6000,
+            delay: 7000,
             disableOnInteraction: false
 		},
         loop: true,

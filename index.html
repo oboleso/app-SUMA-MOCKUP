@@ -69,9 +69,9 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle page-scroll" href="#somos" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Quienes somos</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="article-details.html"><span class="item-text">Nuestros profesionales</span></a>
+                            <a class="dropdown-item popup-with-move-anim" href="#somos-lightbox-1"><span class="item-text">Nuestros profesionales</span></a>
                             <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">Porque elegirnos</span></a>
+                            <a class="dropdown-item popup-with-move-anim" href="#somos-lightbox-2"><span class="item-text">Porque elegirnos</span></a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -95,12 +95,9 @@
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#respsocial">Responsabilidad social</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#pricing">Tienda</a>
-                    </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-outline-sm" href="log-in.html">LOG IN</a>
+                    <a class="btn-outline-sm" href="#contactenos">Contáctenos</a>
                 </span>
             </div>
         </div> <!-- end of container -->
@@ -118,6 +115,24 @@
                     <div class="slider-container">
                         <div class="swiper-container image-slider">
                             <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="row">  
+                                        <div class="col-lg-6 col-xl-5">
+                                            <div class="text-container">
+                                                <h1>Agenda tu cita</h1>
+                                                <!-- <p class="p-large">Somos apasionados por brindar un servicio excepcional a nuestros pacientes y sus familias</p> -->
+                                                <a class="btn-solid-lg page-scroll" href="#contactenos">Aqui</a>
+                                            </div> <!-- end of text-container -->
+                                        </div> <!-- end of col -->
+                                        <div class="col-lg-6 col-xl-7">
+                                            <div class="image-container">
+                                                <div class="img-wrapper">
+                                                    <img class="img-fluid" src="images/Logo.png" alt="alternative">
+                                                </div> <!-- end of img-wrapper -->
+                                            </div> <!-- end of image-container -->
+                                        </div> <!-- end of col -->
+                                    </div>
+                                </div>
                                 <div class="swiper-slide">
                                     <div class="row">  
                                         <div class="col-lg-6 col-xl-5">
@@ -203,16 +218,8 @@
                             vida de las personas a través de la restauración y optimización de su salud auditiva, comunicativa y del equilibrio, 
                             por medio de la atención integral, los últimos avances científicos y tecnológicos, el apoyo y acompañamiento continúo personalizado.
                         </p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><a href="#somos">Nuestros profesionales</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><a href="#somos">Porque elegirnos</a></div>
-                            </li>
-                        </ul>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#somos-lightbox-1">Nuestros profesionales</a>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#somos-lightbox-2">Porque elegirnos</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -225,13 +232,108 @@
     </div> <!-- end of basic-1 -->
     <!-- end of details -->
 
+    <!---- somos Lightboxes ---->
+    <!-- somos Lightbox 1 -->
+	<div id="somos-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                
+                <div class="col-lg-12"> 
+                    <h3>Nuestros profesionales</h3>
+                    <hr>             
+                </div>
+                <div class="col-lg-6 text-justify">
+                    <h5>Dra. Diana Suarez </h5>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Fonoaudióloga de la Universidad Nacional de Colombia.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Especialista en Audiología de la Escuela Colombiana de Rehabilitación.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Docente de la Universidad Nacional de Colombia.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Más de 8 años de experiencia.</div>
+                        </li>
+                    </ul>
+                </div> <!-- end of col -->
+
+                <div class="col-lg-6 text-justify">
+                    <h5>Dr. Oswal Martínez</h5>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Fonoaudiólogo de la Universidad Nacional de Colombia.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Especialista en Audiología de la Escuela Colombiana de Rehabilitación.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Magister en Docencia e Investigación Universitaria de la Universidad Sergio Arboleda.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Docente de la Escuela Colombiana de Rehabilitación.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body">Más de 17 años de experiencia.</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close" href="#contactenos">Agenda tu cita</a> <a class="btn-outline-reg mfp-close as-button" href="#somos">Volver</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of details lightbox 1 -->
+
+    <!-- somos Lightbox 2 - 1 -->
+	<div id="somos-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-3">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/somos-lightbox.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-9 text-justify">
+                    <h3>Por qué elegirnos</h3>
+                    <hr>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <h6>1.</h6><div class="media-body"><b>Pasión por el Servicio:</b> Nuestro equipo comparte una pasión intrínseca por ayudar a los demás. Nos esforzamos por superar las expectativas de nuestros pacientes, brindando un servicio cálido, respetuoso y empático. Entendemos que detrás de cada caso hay una historia personal, y trabajamos para establecer conexiones con las personas.</div>
+                        </li>
+                        <li class="media">
+                            <h6>2.</h6><div class="media-body"><b>Bienestar Integral:</b> Reconocemos la salud auditiva como un componente integral del bienestar general. No solo nos enfocamos en las cuestiones técnicas y médicas, sino también en cómo una mejora en la audición, comunicación y el equilibrio puede tener un impacto positivo en las relaciones personales, la autoestima y la confianza.</div>
+                        </li>
+                        <li class="media">
+                            <h6>3.</h6><div class="media-body"><b>Enfoque Familiar:</b> Comprendemos que la salud auditiva, comunicativa y del equilibrio afecta no solo a los pacientes, sino también a sus seres queridos. Nos esforzamos por incluir a las familias en el proceso de tratamiento y educación, creando un ambiente de apoyo y comprensión.</div>
+                        </li>
+                        <li class="media">
+                            <h6>4.</h6><div class="media-body"><b>Actualización Constante:</b> Mantenemos un compromiso continuo con la formación y la actualización en las últimas tendencias y avances en fonoaudiología y audiología. Esta dedicación nos permite ofrecer soluciones basadas en la mejor evidencia científica y las prácticas más innovadoras.</div>
+                        </li>
+                        <li class="media">
+                            <h6>5.</h6><div class="media-body"><b>Comunicación Abierta:</b> Valoramos la comunicación abierta y transparente tanto con nuestros pacientes como entre los miembros del equipo. Esto garantiza que estemos alineados en nuestros objetivos y enfoques, lo que a su vez se refleja en la atención excepcional que brindamos.</div>
+                        </li>
+                        <li class="media">
+                            <h6>6.</h6><div class="media-body"><b>Impacto Positivo Duradero:</b> Buscamos no solo abordar los problemas auditivos, comunicativos y del equilibrio inmediatos, sino también establecer una base para un futuro más saludable y conectado.</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close" href="#contactenos">Agenda tu cita</a> <a class="btn-outline-reg mfp-close as-button" href="#somos">Volver</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of somos lightbox 2 -->
+
 
     <!-- Nuestros servicios -->
     <div id="servicios" class="cards-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="above-heading">SERVICIOS</div>
+                    <!-- <div class="above-heading">SERVICIOS</div> -->
                     <h2 class="h2-heading">Nuestros Servicios</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -244,7 +346,7 @@
                             <img class="img-fluid" src="images/servicios-1.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <p>Venta y adaptación de audífonos medicados para sordera</p>
+                            <h4 class="card-title">Venta y adaptación de audífonos medicados para sordera</h4>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -288,7 +390,7 @@
                             <img class="img-fluid" src="images/servicios-3.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <p>Limpieza de oídos</p>
+                            <h4 class="card-title">Limpieza de oídos</h4>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -299,7 +401,7 @@
                             <img class="img-fluid" src="images/servicios-4.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <p>Venta de accesorios para audífonos</p>
+                            <h4 class="card-title">Venta de accesorios para audífonos</h4>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -310,7 +412,7 @@
                             <img class="img-fluid" src="images/servicios-5.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <p>Protectores auditivos para ruido, músicos y agua</p>
+                            <h4 class="card-title">Protectores auditivos para ruido, músicos y agua</h4>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -321,7 +423,7 @@
                             <img class="img-fluid" src="images/servicios-6.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <p>Terapia para el vértigo y el equilibrio</p>
+                            <h4 class="card-title">Terapia para el vértigo y el equilibrio</h4>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -332,7 +434,7 @@
                             <img class="img-fluid" src="images/servicios-7.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <p>Terapia para el tinnitus</p>
+                            <h4 class="card-title">Terapia para el tinnitus</h4>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -343,7 +445,7 @@
                             <img class="img-fluid" src="images/servicios-8.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <p>Asesoría virtual</p>
+                            <h4 class="card-title">Asesoría virtual</h4>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -354,10 +456,19 @@
                             <img class="img-fluid" src="images/servicios-9.png" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <p>Consulta domiciliaria</p>
+                            <h4 class="card-title">Consulta domiciliaria</h4>
                         </div>
                     </div>
                     <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-body">
+                            <a class="btn-solid-reg" href="#contactenos">Agenda tu cita</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+                    
 
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -371,8 +482,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="above-heading">AUDÍFONOS</div>
-                    <h2 class="h2-heading">Cosas que debes saber de los audífonos</h2>
+                    <div class="above-heading">Cosas que debes saber de los audífonos</div>
+                    <h2 class="h2-heading">Audífonos</h2>
                     <p class="p-heading"><a class="btn-solid-reg popup-with-move-anim" href="#audifonos-lightbox-info">Ver aquí</a></p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -467,7 +578,7 @@
                                                 <div class="media-body">Acompañamiento personalizado</div>
                                             </li>
                                         </ul>
-                                        <a class="btn-solid-reg" href="#audifonos">Agenda tu cita</a>
+                                        <a class="btn-solid-reg" href="#contactenos">Agenda tu cita</a>
                                     </div> <!-- end of text-container -->
                                 </div> <!-- end of col -->
                             </div> <!-- end of row -->
@@ -494,10 +605,16 @@
                                                     de una gran inversión. Es por eso que estamos emocionados de presentarte los innovadores planes 
                                                     de descuentos que tenemos para ti en colaboración con Starkey Colombia. Estos planes están diseñados 
                                                     para brindarte soluciones auditivas de alta tecnología y mejorar tu bienestar auditivo al mejor precio.
+                                                    <br>
+                                                    <br>
+                                                    ¡Contáctanos hoy mismo para programar una evaluación auditiva y dar el primer paso hacia una audición 
+                                                    mejor y una vida más plena! Tu audición es nuestra prioridad, y estamos aquí para ayudarte a redescubrir 
+                                                    el mundo de los sonidos.
                                                 </div>
                                             </li>
                                         </ul>
-                                        <a class="btn-solid-reg popup-with-move-anim" href="#audifonos-lightbox-2">Seguir viendo</a>
+                                        <a class="btn-solid-reg popup-with-move-anim" href="#audifonos-lightbox-2-1">Plan renueva</a>
+                                        <a class="btn-solid-reg popup-with-move-anim" href="#audifonos-lightbox-2-2">Plan comienza</a>
                                     </div> <!-- end of text-container -->
                                 </div> <!-- end of col -->
                             </div> <!-- end of row -->
@@ -513,9 +630,7 @@
     </div> <!-- end of tabs -->
     <!-- end of features -->
 
-
-    <!---- audifonos Lightboxes ---->
-
+    <!----------- audifonos Lightboxes ------------>
     <!-- audifonos Lightbox 1 -->
 	<div id="audifonos-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
         <div class="container">
@@ -533,28 +648,28 @@
                     <p>Nuestra prueba de audífonos gratuita es el primer paso hacia una experiencia auditiva más clara y placentera. Aquí te explicamos cómo funciona: </p>
                     <ul class="list-unstyled li-space-lg">
                         <li class="media">
-                            <h6>1.</h6><div class="media-body">Agenda tu Cita: Llena nuestro sencillo formulario en línea o llámanos para programar una cita.</div>
+                            <h6>1.</h6><div class="media-body"><b>Agenda tu Cita:</b> Llena nuestro sencillo formulario en línea o llámanos para programar una cita.</div>
                         </li>
                         <li class="media">
-                            <h6>2.</h6><div class="media-body">Entrevista: Nuestro equipo de expertos en audición te recibirá y realizará una breve entrevista para comprender tus necesidades auditivas.</div>
+                            <h6>2.</h6><div class="media-body"><b>Entrevista:</b> Nuestro equipo de expertos en audición te recibirá y realizará una breve entrevista para comprender tus necesidades auditivas.</div>
                         </li>
                         <li class="media">
-                            <h6>3.</h6><div class="media-body">Prueba de Audición: Te someteremos a una rápida prueba de audición para evaluar tu capacidad auditiva.</div>
+                            <h6>3.</h6><div class="media-body"><b>Prueba de Audición:</b> Te someteremos a una rápida prueba de audición para evaluar tu capacidad auditiva.</div>
                         </li>
                         <li class="media">
-                            <h6>4.</h6><div class="media-body">Demostración de Audífonos: Te mostraremos cómo nuestros audífonos pueden mejorar tu audición. Experimenta la diferencia en el consultorio.</div>
+                            <h6>4.</h6><div class="media-body"><b>Demostración de Audífonos:</b> Te mostraremos cómo nuestros audífonos pueden mejorar tu audición. Experimenta la diferencia en el consultorio.</div>
                         </li>
                         <li class="media">
-                            <h6>5.</h6><div class="media-body">Resuelve Tus Preguntas: Responderemos todas tus preguntas sobre los audífonos y su funcionamiento.</div>
+                            <h6>5.</h6><div class="media-body"><b>Resuelve Tus Preguntas:</b> Responderemos todas tus preguntas sobre los audífonos y su funcionamiento.</div>
                         </li>
                         <li class="media">
-                            <h6>6.</h6><div class="media-body">Sin Compromiso: No hay obligación de compra. La prueba es completamente gratuita.</div>
+                            <h6>6.</h6><div class="media-body"><b>Sin Compromiso:</b> No hay obligación de compra. La prueba es completamente gratuita.</div>
                         </li>
                         <li class="media">
-                            <h6>5.</h6><div class="media-body">Toma Tu Decisión: Tómate el tiempo que necesites para decidir si los audífonos son adecuados para ti.</div>
+                            <h6>7.</h6><div class="media-body"><b>Toma Tu Decisión:</b> Tómate el tiempo que necesites para decidir si los audífonos son adecuados para ti.</div>
                         </li>
                         <li class="media">
-                            <h6>6.</h6><div class="media-body">Apoyo Continuo: Si decides adquirir los audífonos, te brindaremos un soporte constante para asegurarnos de que obtengas el máximo beneficio.</div>
+                            <h6>8.</h6><div class="media-body"><b>Apoyo Continuo:</b> Si decides adquirir los audífonos, te brindaremos un soporte constante para asegurarnos de que obtengas el máximo beneficio.</div>
                         </li>
 
                         <br>
@@ -562,15 +677,15 @@
                             <div class="media-body">¡Agenda tu prueba de audífonos gratuita hoy mismo! No dejes que la pérdida de audición limite tu vida. Estamos aquí para ayudarte.</div>
                         </li>
                     </ul>
-                    <a class="btn-solid-reg mfp-close" href="sign-up.html">Agenda tu cita</a> <a class="btn-outline-reg mfp-close as-button" href="#audifonos">Volver</a>
+                    <a class="btn-solid-reg mfp-close" href="#contactenos">Agenda tu cita</a> <a class="btn-outline-reg mfp-close as-button" href="#audifonos">Volver</a>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of lightbox-basic -->
     <!-- end of details lightbox 1 -->
 
-    <!-- Details Lightbox 2 -->
-	<div id="audifonos-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <!-- Details Lightbox 2 - 1 -->
+	<div id="audifonos-lightbox-2-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
         <div class="container">
             <div class="row">
                 <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
@@ -582,27 +697,41 @@
                 <div class="col-lg-9 text-justify">
                     <h3>Descuentos</h3>
                     <hr>
-                    <h5>¡Descubre los Planes de descuentos que tenemos para ti</h5>
-                    <p>En SUMA Consultorios Auditivos, entendemos que acceder a audífonos de alta tecnología requiere de una gran inversión. Es por eso que estamos emocionados de presentarte los innovadores planes de descuentos que tenemos para ti en colaboración con Starkey Colombia. Estos planes están diseñados para brindarte soluciones auditivas de alta tecnología y mejorar tu bienestar auditivo al mejor precio.</p>
+                    <h5>Plan Renueva</h5>
+                    
                     <ul class="list-unstyled li-space-lg">
                         <li class="media">
-                            <i class="fas fa-square"></i><div class="media-body "><b>Plan Renueva:</b> Diseñado para brindarle a las personas usuarios de audífonos la posibilidad de cambiar sus audífonos y acceder a los nuevos avances de la tecnología, este plan está disponible para que los audífonos hechos la medida y estándar (BTE y RIC) de las tecnologías anteriores, de cualquier marca, puedan ser reemplazados por nuestras nuevas líneas de audífonos con tecnología de punta. Gracias al Plan Renueva, puede recuperar una parte de la inversión que hizo en su audífono anterior y así lograr beneficiarse de los últimos avances en amplificación. Este plan, proporciona un valor de descuento aplicable para la compra de un(os) audífono(s) nuevo(s) digital programable, hecho a la medida o estándar, de la tecnología escogida por usted.</div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-square"></i><div class="media-body "><b>Plan Comienza:</b> Diseñado para brindarle a las personas que están iniciando su camino hacia una mejor audición la oportunidad de acceder a la mejor tecnología auditiva, que le permitirá adaptarse sin esfuerzo al uso de audífonos y experimentar la vida al máximo. Este plan, proporciona un valor de descuento aplicable para la compra de un(os) audífono(s) nuevo(s) digital programable, hecho a la medida o estándar, de la tecnología escogida por usted.</div>
-                        </li>
-
-                        <br>
-                        <li class="media">
-                            <div class="media-body ">En SUMA Consultorios Auditivos, estamos comprometidos a brindarte una experiencia de audición excepcional y personalizada. Con nuestros planes en colaboración con Starkey Colombia, estamos seguros de que encontrarás la solución auditiva perfecta para ti.</div>
-                        </li>
-
-                        <br>
-                        <li class="media">
-                            <div class="media-body">¡Contáctanos hoy mismo para programar una evaluación auditiva y dar el primer paso hacia una audición mejor y una vida más plena! Tu audición es nuestra prioridad, y estamos aquí para ayudarte a redescubrir el mundo de los sonidos.</div>
+                            <i class="fas fa-square"></i><div class="media-body ">Diseñado para brindarle a las personas usuarios de audífonos la posibilidad de cambiar sus audífonos y acceder a los nuevos avances de la tecnología, este plan está disponible para que los audífonos hechos la medida y estándar (BTE y RIC) de las tecnologías anteriores, de cualquier marca, puedan ser reemplazados por nuestras nuevas líneas de audífonos con tecnología de punta. Gracias al Plan Renueva, puede recuperar una parte de la inversión que hizo en su audífono anterior y así lograr beneficiarse de los últimos avances en amplificación. Este plan, proporciona un valor de descuento aplicable para la compra de un(os) audífono(s) nuevo(s) digital programable, hecho a la medida o estándar, de la tecnología escogida por usted.</div>
                         </li>
                     </ul>
-                    <a class="btn-solid-reg mfp-close" href="sign-up.html">Agenda tu cita</a> <a class="btn-outline-reg mfp-close as-button" href="#audifonos">Volver</a>
+                    <a class="btn-solid-reg mfp-close" href="#contactenos">Agenda tu cita</a> <a class="btn-outline-reg mfp-close as-button" href="#audifonos">Volver</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of details lightbox 2 -->
+
+    <!-- Details Lightbox 2 - 2 -->
+	<div id="audifonos-lightbox-2-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-3">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/audifonos-lightbox-2.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-9 text-justify">
+                    <h3>Descuentos</h3>
+                    <hr>
+                    <h5>Plan Comienza</h5>
+                    
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-square"></i><div class="media-body ">Diseñado para brindarle a las personas que están iniciando su camino hacia una mejor audición la oportunidad de acceder a la mejor tecnología auditiva, que le permitirá adaptarse sin esfuerzo al uso de audífonos y experimentar la vida al máximo. Este plan, proporciona un valor de descuento aplicable para la compra de un(os) audífono(s) nuevo(s) digital programable, hecho a la medida o estándar, de la tecnología escogida por usted.</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close" href="#contactenos">Agenda tu cita</a> <a class="btn-outline-reg mfp-close as-button" href="#audifonos">Volver</a>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -618,7 +747,7 @@
                     <div class="image-container">
                         <img class="img-fluid" src="images/Infographic.svg" alt="alternative">
                     </div> <!-- end of image-container -->
-                    <a class="btn-solid-reg mfp-close" href="sign-up.html">Agenda tu cita</a> <a class="btn-outline-reg mfp-close as-button" href="#audifonos">Volver</a>
+                    <a class="btn-solid-reg mfp-close" href="#contactenos">Agenda tu cita</a> <a class="btn-outline-reg mfp-close as-button" href="#audifonos">Volver</a>
                 </div> <!-- end of col -->
                 
                     
@@ -627,7 +756,7 @@
         </div> <!-- end of container -->
     </div> <!-- end of lightbox-basic -->
     <!-- end of details lightbox 1 -->
-    <!---- end of details lightboxes ---->
+    <!--------- end of details lightboxes --------->
 
     
     <!-- Responsibilidad social -->
@@ -635,32 +764,45 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="above-heading">Social</div>
+                    <!-- <div class="above-heading">Social</div> -->
                     <h2 class="h2-heading">Responsabilidad Social</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-6">
                     <div class="p-heading text-justify">
                         En SUMA Consultorios Auditivos, nuestro principal objetivo es proporcionar soluciones auditivas
                         de alta calidad mientras hacemos una diferencia significativa en la vida de las personas. 
                         Creemos en la importancia de ayudar a quienes enfrentan desafíos auditivos y no tienen los recursos 
                         económicos para acceder a la tecnología necesaria. Es por eso que, con parte del pago que realizas 
-                        por tus audífonos, contribuimos a un acto de generosidad. Compramos un audífono completamente nuevo 
+                        por tus audífonos, contribuimos a un acto de generosidad.
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-heading text-justify">
+                        Compramos un audífono completamente nuevo 
                         y lo donamos a una persona con hipoacusia, brindándoles la oportunidad de experimentar una mejora 
                         notable en su audición y calidad de vida. Cada compra en SUMA no solo mejora tu propia audición, 
                         sino que también contribuye a un mundo donde juntos, con compasión y solidaridad, podemos hacer que 
-                        cada sonido sea una experiencia compartida. Gracias por ser parte de esta causa.</div>        
+                        cada sonido sea una experiencia compartida. Gracias por ser parte de esta causa.
+                    </div> 
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
+            <a class="btn-solid-reg" href="#contactenos">Agenda tu cita</a>
         </div> <!-- end of container -->
     </div> <!-- end of basic-2 -->
     <!-- end of video -->
 
 
     <!-- Newsletter -->
-    <div class="form">
+    <div id="contactenos" class="form">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- <div class="above-heading">Social</div> -->
+                    <h2>Contáctenos</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="icon-container">
@@ -677,7 +819,7 @@
                             </a>
                         </span>                        
                         <span class="fa-stack">
-                            <a href="https://ig.me/m@suma_audición" target="_blank">
+                            <a href="https://ig.me/m/@suma_audición" target="_blank">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
@@ -695,6 +837,7 @@
     </div> <!-- end of form -->
     <!-- end of newsletter -->
 
+    <a href="https://wa.me/3059363752" target="_blank" class="button-whatsapp page-scroll">whatsapp</a>
 
     <!-- Footer -->
     <svg class="footer-frame" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 79"><defs><style>.cls-2{fill:#005677;}</style></defs><title>footer-frame</title><path class="cls-2" d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z" transform="translate(0 -0.188)"/></svg>
@@ -730,7 +873,11 @@
                             </li>
                             <li class="media">
                                 <i class="fas fa-envelope"></i>
-                                <div class="media-body"><a class="white" href="mailto:suma_audición@outlook.com">suma_audición@outlook.com</a> <i class="fa fa-mobile"></i><a class="white" href="https://wa.me/3059363752" target="_blank"> 305 936 37 52</a></div>
+                                <div class="media-body"><a class="white" href="mailto:suma_audición@outlook.com">suma_audición@outlook.com</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fa fa-mobile"></i>
+                                <div class="media-body"><a class="white" href="https://wa.me/3059363752" target="_blank"> 305 936 37 52</a></div>
                             </li>
                         </ul>
                     </div> 
